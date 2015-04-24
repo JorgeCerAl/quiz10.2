@@ -15,8 +15,8 @@ using namespace std;
 
 int producto(int x, int p){
     int i = 0, u = 0, z, k;
-    int v1[] = {0};
-    int v2[] = {0};
+    int v1[100] = {0};
+    int v2[100] = {0};
     
     for(int i = 1; i <= x; i++){
         cout << "numero para v1" << endl;
